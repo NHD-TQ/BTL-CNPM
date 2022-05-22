@@ -29,7 +29,7 @@
 			move_uploaded_file($hinhanh_tmp,$path.$hinhanh);
 			$sql_update_image = "UPDATE tbl_baiviet SET tenbaiviet='$tenbaiviet',noidung='$chitiet',tomtat='$mota',danhmuctin_id='$danhmuc',baiviet_image='$hinhanh' WHERE baiviet_id='$id_update'";
 		}
-		mysqli_query($con,$sql_update_image);
+		// mysqli_query($con,$sql_update_image);
 	}
 	
 ?> 
