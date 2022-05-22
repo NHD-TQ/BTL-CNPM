@@ -19,7 +19,7 @@
 				$_SESSION['admin_id'] = $row_dangnhap['admin_id'];
 				header('Location: dashboard.php');
 			}else{
-				echo '<p>Tài khoản hoặc mật khẩu sai</p>';
+				
 			}
 		}
 	}
